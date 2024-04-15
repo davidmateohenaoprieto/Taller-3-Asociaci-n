@@ -1,0 +1,564 @@
+soporte: 0.001, threshold: 0.1
+Tiempo de ejecución apriori: 3.2583625316619873
+                         antecedents                       consequents  antecedent support  consequent support   support  confidence        lift  leverage  conviction  zhangs_metric
+0              (ALPIN BOTELLA 300ML)                       (EMPANADAS)            0.006476            0.107089  0.001850    0.285714    2.668004  0.001157    1.250075       0.629263
+1              (ALPIN BOTELLA 300ML)               (PASTELES. PALITOS)            0.006476            0.044524  0.001041    0.160714    3.609601  0.000752    1.138439       0.727674
+2               (ALPIN CAJA  200 ML)                       (EMPANADAS)            0.011102            0.107089  0.001966    0.177083    1.653606  0.000777    1.085056       0.399699
+3               (ALPIN CAJA  200 ML)               (SANDWICH SENCILLO)            0.011102            0.027755  0.001735    0.156250    5.629557  0.001427    1.152290       0.831599
+4         (ARTESANAL  MARACUYA 70GR)                 (CHOCO CONO 90GR)            0.007864            0.003238  0.001156    0.147059   45.414916  0.001131    1.168617       0.985733
+5                  (CHOCO CONO 90GR)        (ARTESANAL  MARACUYA 70GR)            0.003238            0.007864  0.001156    0.357143   45.414916  0.001131    1.543323       0.981158
+6              (AVENA ALPINA  250GR)                       (EMPANADAS)            0.004163            0.107089  0.001388    0.333333    3.112671  0.000942    1.339366       0.681570
+7                    (BRICKET TOKAY)                (LUCKY ALASKA X10)            0.005320            0.015612  0.001041    0.195652   12.531884  0.000958    1.223833       0.925125
+8        (BRISA LIMON-MANZANA 600ML)                   (TRIDENT 10 GR)            0.013299            0.027871  0.001619    0.121739    4.367960  0.001248    1.106880       0.781453
+9              (CAFE AMERICANO 7 OZ)                       (EMPANADAS)            0.005667            0.107089  0.001041    0.183673    1.715145  0.000434    1.093816       0.419335
+10                  (CAPUCHINO 7 OZ)                       (EMPANADAS)            0.005782            0.107089  0.002197    0.380000    3.548445  0.001578    1.440179       0.722363
+11  (CERVEZA  AGUILA ORIGINAL 355ML)            (CERVEZA POKER  355ML)            0.003469            0.004163  0.001503    0.433333  104.084259  0.001489    1.757359       0.993840
+12            (CERVEZA POKER  355ML)  (CERVEZA  AGUILA ORIGINAL 355ML)            0.004163            0.003469  0.001503    0.361111  104.084259  0.001489    1.559787       0.994533
+13             (CHOCOLATE LECHE 9OZ)               (PASTELES. PALITOS)            0.005204            0.044524  0.001388    0.266667    5.989264  0.001156    1.302922       0.837392
+14                    (CIFRUT 400ML)                       (EMPANADAS)            0.008789            0.107089  0.001041    0.118421    1.105817  0.000100    1.012854       0.096540
+15          (COCA COLA FLEXI 400 ML)                       (EMPANADAS)            0.037932            0.107089  0.004857    0.128049    1.195721  0.000795    1.024038       0.170138
+16     (PAPAS MARGARITA POLLO 25 GR)          (COCA COLA FLEXI 400 ML)            0.010524            0.037932  0.001156    0.109890    2.897012  0.000757    1.080842       0.661781
+17      (COCA COLA SIN AZUCAR 400ML)                       (EMPANADAS)            0.007286            0.107089  0.001388    0.190476    1.778669  0.000608    1.103008       0.440995
+18                  (COCACOLA 600ML)                       (EMPANADAS)            0.009599            0.107089  0.001272    0.132530    1.237568  0.000244    1.029328       0.193824
+19                 (DE TODITO 45 GR)                       (EMPANADAS)            0.008442            0.107089  0.001156    0.136986    1.279180  0.000252    1.034643       0.220107
+20                 (FUZE TEA  400ML)                       (EMPANADAS)            0.010640            0.107089  0.001619    0.152174    1.421002  0.000480    1.053177       0.299457
+21               (GATORADE   500 ML)                       (EMPANADAS)            0.021742            0.107089  0.002429    0.111702    1.043076  0.000100    1.005193       0.042215
+22                (JUGO HIT  500 ML)                       (EMPANADAS)            0.036660            0.107089  0.005320    0.145110    1.355043  0.001394    1.044475       0.271987
+23                      (LATTE 7 OZ)                       (EMPANADAS)            0.006361            0.107089  0.001735    0.272727    2.546731  0.001054    1.227752       0.611227
+24                      (LATTE 9 OZ)                       (EMPANADAS)            0.009599            0.107089  0.001619    0.168675    1.575087  0.000591    1.074081       0.368653
+25                   (MOCACHINO 7OZ)                       (EMPANADAS)            0.002082            0.107089  0.001156    0.555556    5.187785  0.000934    2.009049       0.808923
+26           (MR TEA PLASTICO 500ML)                       (EMPANADAS)            0.012606            0.107089  0.002082    0.165138    1.542057  0.000732    1.069531       0.356003
+27                     (PONKY 33 GR)                       (EMPANADAS)            0.019313            0.107089  0.002082    0.107784    1.006492  0.000013    1.000779       0.006578
+28               (PULP NECTAR 400ML)                       (EMPANADAS)            0.009599            0.107089  0.002082    0.216867    2.025111  0.001054    1.140178       0.511106
+29                (SPEED MAX  269ML)                       (EMPANADAS)            0.011102            0.107089  0.001388    0.125000    1.167252  0.000199    1.020470       0.144895
+30                 (VIVE 100. 380ML)                       (EMPANADAS)            0.019544            0.107089  0.003007    0.153846    1.436617  0.000914    1.055258       0.309979
+31       (YOGURT GRIEGO ALPINA 150G)                       (EMPANADAS)            0.007401            0.107089  0.001156    0.156250    1.459065  0.000364    1.058265       0.316975
+32                     (IMPRESIONES)                 (FOTOCOPIA 1CARA)            0.005435            0.002891  0.001272    0.234043   80.950638  0.001256    1.301781       0.993044
+33                 (FOTOCOPIA 1CARA)                     (IMPRESIONES)            0.002891            0.005435  0.001272    0.440000   80.950638  0.001256    1.776008       0.990511
+34     (PAPAS MARGARITA POLLO 25 GR)                (JUGO HIT  500 ML)            0.010524            0.036660  0.001619    0.153846    4.196554  0.001233    1.138493       0.769811
+35                      (LATTE 7 OZ)               (PASTELES. PALITOS)            0.006361            0.044524  0.001041    0.163636    3.675230  0.000758    1.142417       0.732568
+36                      (LATTE 9 OZ)               (PASTELES. PALITOS)            0.009599            0.044524  0.001156    0.120482    2.705993  0.000729    1.086363       0.636560
+37                      (LATTE 9 OZ)               (SANDWICH SENCILLO)            0.009599            0.027755  0.001156    0.120482    4.340863  0.000890    1.105429       0.777090
+38              (TODO RICO BBQ 45GR)               (PASTELES. PALITOS)            0.011449            0.044524  0.001156    0.101010    2.268661  0.000647    1.062833       0.565688
+Tiempo de ejecución fp-growth: 0.06859970092773438
+                         antecedents                       consequents  antecedent support  consequent support   support  confidence        lift  leverage  conviction  zhangs_metric
+0                    (BRICKET TOKAY)                (LUCKY ALASKA X10)            0.005320            0.015612  0.001041    0.195652   12.531884  0.000958    1.223833       0.925125
+1                 (JUGO HIT  500 ML)                       (EMPANADAS)            0.036660            0.107089  0.005320    0.145110    1.355043  0.001394    1.044475       0.271987
+2                  (VIVE 100. 380ML)                       (EMPANADAS)            0.019544            0.107089  0.003007    0.153846    1.436617  0.000914    1.055258       0.309979
+3               (ALPIN CAJA  200 ML)                       (EMPANADAS)            0.011102            0.107089  0.001966    0.177083    1.653606  0.000777    1.085056       0.399699
+4               (ALPIN CAJA  200 ML)               (SANDWICH SENCILLO)            0.011102            0.027755  0.001735    0.156250    5.629557  0.001427    1.152290       0.831599
+5                      (PONKY 33 GR)                       (EMPANADAS)            0.019313            0.107089  0.002082    0.107784    1.006492  0.000013    1.000779       0.006578
+6        (BRISA LIMON-MANZANA 600ML)                   (TRIDENT 10 GR)            0.013299            0.027871  0.001619    0.121739    4.367960  0.001248    1.106880       0.781453
+7                   (COCACOLA 600ML)                       (EMPANADAS)            0.009599            0.107089  0.001272    0.132530    1.237568  0.000244    1.029328       0.193824
+8                (GATORADE   500 ML)                       (EMPANADAS)            0.021742            0.107089  0.002429    0.111702    1.043076  0.000100    1.005193       0.042215
+9                 (SPEED MAX  269ML)                       (EMPANADAS)            0.011102            0.107089  0.001388    0.125000    1.167252  0.000199    1.020470       0.144895
+10              (TODO RICO BBQ 45GR)               (PASTELES. PALITOS)            0.011449            0.044524  0.001156    0.101010    2.268661  0.000647    1.062833       0.565688
+11                 (FUZE TEA  400ML)                       (EMPANADAS)            0.010640            0.107089  0.001619    0.152174    1.421002  0.000480    1.053177       0.299457
+12                      (LATTE 9 OZ)                       (EMPANADAS)            0.009599            0.107089  0.001619    0.168675    1.575087  0.000591    1.074081       0.368653
+13                      (LATTE 9 OZ)               (PASTELES. PALITOS)            0.009599            0.044524  0.001156    0.120482    2.705993  0.000729    1.086363       0.636560
+14                      (LATTE 9 OZ)               (SANDWICH SENCILLO)            0.009599            0.027755  0.001156    0.120482    4.340863  0.000890    1.105429       0.777090
+15      (COCA COLA SIN AZUCAR 400ML)                       (EMPANADAS)            0.007286            0.107089  0.001388    0.190476    1.778669  0.000608    1.103008       0.440995
+16          (COCA COLA FLEXI 400 ML)                       (EMPANADAS)            0.037932            0.107089  0.004857    0.128049    1.195721  0.000795    1.024038       0.170138
+17                  (CAPUCHINO 7 OZ)                       (EMPANADAS)            0.005782            0.107089  0.002197    0.380000    3.548445  0.001578    1.440179       0.722363
+18       (YOGURT GRIEGO ALPINA 150G)                       (EMPANADAS)            0.007401            0.107089  0.001156    0.156250    1.459065  0.000364    1.058265       0.316975
+19             (CHOCOLATE LECHE 9OZ)               (PASTELES. PALITOS)            0.005204            0.044524  0.001388    0.266667    5.989264  0.001156    1.302922       0.837392
+20             (ALPIN BOTELLA 300ML)               (PASTELES. PALITOS)            0.006476            0.044524  0.001041    0.160714    3.609601  0.000752    1.138439       0.727674
+21             (ALPIN BOTELLA 300ML)                       (EMPANADAS)            0.006476            0.107089  0.001850    0.285714    2.668004  0.001157    1.250075       0.629263
+22                 (DE TODITO 45 GR)                       (EMPANADAS)            0.008442            0.107089  0.001156    0.136986    1.279180  0.000252    1.034643       0.220107
+23               (PULP NECTAR 400ML)                       (EMPANADAS)            0.009599            0.107089  0.002082    0.216867    2.025111  0.001054    1.140178       0.511106
+24                      (LATTE 7 OZ)                       (EMPANADAS)            0.006361            0.107089  0.001735    0.272727    2.546731  0.001054    1.227752       0.611227
+25                      (LATTE 7 OZ)               (PASTELES. PALITOS)            0.006361            0.044524  0.001041    0.163636    3.675230  0.000758    1.142417       0.732568
+26                    (CIFRUT 400ML)                       (EMPANADAS)            0.008789            0.107089  0.001041    0.118421    1.105817  0.000100    1.012854       0.096540
+27  (CERVEZA  AGUILA ORIGINAL 355ML)            (CERVEZA POKER  355ML)            0.003469            0.004163  0.001503    0.433333  104.084259  0.001489    1.757359       0.993840
+28            (CERVEZA POKER  355ML)  (CERVEZA  AGUILA ORIGINAL 355ML)            0.004163            0.003469  0.001503    0.361111  104.084259  0.001489    1.559787       0.994533
+29           (MR TEA PLASTICO 500ML)                       (EMPANADAS)            0.012606            0.107089  0.002082    0.165138    1.542057  0.000732    1.069531       0.356003
+30     (PAPAS MARGARITA POLLO 25 GR)                (JUGO HIT  500 ML)            0.010524            0.036660  0.001619    0.153846    4.196554  0.001233    1.138493       0.769811
+31     (PAPAS MARGARITA POLLO 25 GR)          (COCA COLA FLEXI 400 ML)            0.010524            0.037932  0.001156    0.109890    2.897012  0.000757    1.080842       0.661781
+32             (CAFE AMERICANO 7 OZ)                       (EMPANADAS)            0.005667            0.107089  0.001041    0.183673    1.715145  0.000434    1.093816       0.419335
+33             (AVENA ALPINA  250GR)                       (EMPANADAS)            0.004163            0.107089  0.001388    0.333333    3.112671  0.000942    1.339366       0.681570
+34                   (MOCACHINO 7OZ)                       (EMPANADAS)            0.002082            0.107089  0.001156    0.555556    5.187785  0.000934    2.009049       0.808923
+35                     (IMPRESIONES)                 (FOTOCOPIA 1CARA)            0.005435            0.002891  0.001272    0.234043   80.950638  0.001256    1.301781       0.993044
+36                 (FOTOCOPIA 1CARA)                     (IMPRESIONES)            0.002891            0.005435  0.001272    0.440000   80.950638  0.001256    1.776008       0.990511
+37        (ARTESANAL  MARACUYA 70GR)                 (CHOCO CONO 90GR)            0.007864            0.003238  0.001156    0.147059   45.414916  0.001131    1.168617       0.985733
+38                 (CHOCO CONO 90GR)        (ARTESANAL  MARACUYA 70GR)            0.003238            0.007864  0.001156    0.357143   45.414916  0.001131    1.543323       0.981158
+soporte: 0.001, threshold: 0.2
+Tiempo de ejecución apriori: 3.241079568862915
+                         antecedents                       consequents  antecedent support  consequent support   support  confidence        lift  leverage  conviction  zhangs_metric
+0              (ALPIN BOTELLA 300ML)                       (EMPANADAS)            0.006476            0.107089  0.001850    0.285714    2.668004  0.001157    1.250075       0.629263
+1                  (CHOCO CONO 90GR)        (ARTESANAL  MARACUYA 70GR)            0.003238            0.007864  0.001156    0.357143   45.414916  0.001131    1.543323       0.981158
+2              (AVENA ALPINA  250GR)                       (EMPANADAS)            0.004163            0.107089  0.001388    0.333333    3.112671  0.000942    1.339366       0.681570
+3                   (CAPUCHINO 7 OZ)                       (EMPANADAS)            0.005782            0.107089  0.002197    0.380000    3.548445  0.001578    1.440179       0.722363
+4   (CERVEZA  AGUILA ORIGINAL 355ML)            (CERVEZA POKER  355ML)            0.003469            0.004163  0.001503    0.433333  104.084259  0.001489    1.757359       0.993840
+5             (CERVEZA POKER  355ML)  (CERVEZA  AGUILA ORIGINAL 355ML)            0.004163            0.003469  0.001503    0.361111  104.084259  0.001489    1.559787       0.994533
+6              (CHOCOLATE LECHE 9OZ)               (PASTELES. PALITOS)            0.005204            0.044524  0.001388    0.266667    5.989264  0.001156    1.302922       0.837392
+7                       (LATTE 7 OZ)                       (EMPANADAS)            0.006361            0.107089  0.001735    0.272727    2.546731  0.001054    1.227752       0.611227
+8                    (MOCACHINO 7OZ)                       (EMPANADAS)            0.002082            0.107089  0.001156    0.555556    5.187785  0.000934    2.009049       0.808923
+9                (PULP NECTAR 400ML)                       (EMPANADAS)            0.009599            0.107089  0.002082    0.216867    2.025111  0.001054    1.140178       0.511106
+10                     (IMPRESIONES)                 (FOTOCOPIA 1CARA)            0.005435            0.002891  0.001272    0.234043   80.950638  0.001256    1.301781       0.993044
+11                 (FOTOCOPIA 1CARA)                     (IMPRESIONES)            0.002891            0.005435  0.001272    0.440000   80.950638  0.001256    1.776008       0.990511
+Tiempo de ejecución fp-growth: 0.0693364143371582
+                         antecedents                       consequents  antecedent support  consequent support   support  confidence        lift  leverage  conviction  zhangs_metric
+0                   (CAPUCHINO 7 OZ)                       (EMPANADAS)            0.005782            0.107089  0.002197    0.380000    3.548445  0.001578    1.440179       0.722363
+1              (CHOCOLATE LECHE 9OZ)               (PASTELES. PALITOS)            0.005204            0.044524  0.001388    0.266667    5.989264  0.001156    1.302922       0.837392
+2              (ALPIN BOTELLA 300ML)                       (EMPANADAS)            0.006476            0.107089  0.001850    0.285714    2.668004  0.001157    1.250075       0.629263
+3                (PULP NECTAR 400ML)                       (EMPANADAS)            0.009599            0.107089  0.002082    0.216867    2.025111  0.001054    1.140178       0.511106
+4                       (LATTE 7 OZ)                       (EMPANADAS)            0.006361            0.107089  0.001735    0.272727    2.546731  0.001054    1.227752       0.611227
+5   (CERVEZA  AGUILA ORIGINAL 355ML)            (CERVEZA POKER  355ML)            0.003469            0.004163  0.001503    0.433333  104.084259  0.001489    1.757359       0.993840
+6             (CERVEZA POKER  355ML)  (CERVEZA  AGUILA ORIGINAL 355ML)            0.004163            0.003469  0.001503    0.361111  104.084259  0.001489    1.559787       0.994533
+7              (AVENA ALPINA  250GR)                       (EMPANADAS)            0.004163            0.107089  0.001388    0.333333    3.112671  0.000942    1.339366       0.681570
+8                    (MOCACHINO 7OZ)                       (EMPANADAS)            0.002082            0.107089  0.001156    0.555556    5.187785  0.000934    2.009049       0.808923
+9                      (IMPRESIONES)                 (FOTOCOPIA 1CARA)            0.005435            0.002891  0.001272    0.234043   80.950638  0.001256    1.301781       0.993044
+10                 (FOTOCOPIA 1CARA)                     (IMPRESIONES)            0.002891            0.005435  0.001272    0.440000   80.950638  0.001256    1.776008       0.990511
+11                 (CHOCO CONO 90GR)        (ARTESANAL  MARACUYA 70GR)            0.003238            0.007864  0.001156    0.357143   45.414916  0.001131    1.543323       0.981158
+soporte: 0.001, threshold: 0.30000000000000004
+Tiempo de ejecución apriori: 2.9586195945739746
+                        antecedents                       consequents  antecedent support  consequent support   support  confidence        lift  leverage  conviction  zhangs_metric
+0                 (CHOCO CONO 90GR)        (ARTESANAL  MARACUYA 70GR)            0.003238            0.007864  0.001156    0.357143   45.414916  0.001131    1.543323       0.981158
+1             (AVENA ALPINA  250GR)                       (EMPANADAS)            0.004163            0.107089  0.001388    0.333333    3.112671  0.000942    1.339366       0.681570
+2                  (CAPUCHINO 7 OZ)                       (EMPANADAS)            0.005782            0.107089  0.002197    0.380000    3.548445  0.001578    1.440179       0.722363
+3  (CERVEZA  AGUILA ORIGINAL 355ML)            (CERVEZA POKER  355ML)            0.003469            0.004163  0.001503    0.433333  104.084259  0.001489    1.757359       0.993840
+4            (CERVEZA POKER  355ML)  (CERVEZA  AGUILA ORIGINAL 355ML)            0.004163            0.003469  0.001503    0.361111  104.084259  0.001489    1.559787       0.994533
+5                   (MOCACHINO 7OZ)                       (EMPANADAS)            0.002082            0.107089  0.001156    0.555556    5.187785  0.000934    2.009049       0.808923
+6                 (FOTOCOPIA 1CARA)                     (IMPRESIONES)            0.002891            0.005435  0.001272    0.440000   80.950638  0.001256    1.776008       0.990511
+Tiempo de ejecución fp-growth: 0.0646066665649414
+                        antecedents                       consequents  antecedent support  consequent support   support  confidence        lift  leverage  conviction  zhangs_metric
+0                  (CAPUCHINO 7 OZ)                       (EMPANADAS)            0.005782            0.107089  0.002197    0.380000    3.548445  0.001578    1.440179       0.722363
+1  (CERVEZA  AGUILA ORIGINAL 355ML)            (CERVEZA POKER  355ML)            0.003469            0.004163  0.001503    0.433333  104.084259  0.001489    1.757359       0.993840
+2            (CERVEZA POKER  355ML)  (CERVEZA  AGUILA ORIGINAL 355ML)            0.004163            0.003469  0.001503    0.361111  104.084259  0.001489    1.559787       0.994533
+3             (AVENA ALPINA  250GR)                       (EMPANADAS)            0.004163            0.107089  0.001388    0.333333    3.112671  0.000942    1.339366       0.681570
+4                   (MOCACHINO 7OZ)                       (EMPANADAS)            0.002082            0.107089  0.001156    0.555556    5.187785  0.000934    2.009049       0.808923
+5                 (FOTOCOPIA 1CARA)                     (IMPRESIONES)            0.002891            0.005435  0.001272    0.440000   80.950638  0.001256    1.776008       0.990511
+6                 (CHOCO CONO 90GR)        (ARTESANAL  MARACUYA 70GR)            0.003238            0.007864  0.001156    0.357143   45.414916  0.001131    1.543323       0.981158
+soporte: 0.001, threshold: 0.4
+Tiempo de ejecución apriori: 3.2147626876831055
+                        antecedents             consequents  antecedent support  consequent support   support  confidence        lift  leverage  conviction  zhangs_metric
+0  (CERVEZA  AGUILA ORIGINAL 355ML)  (CERVEZA POKER  355ML)            0.003469            0.004163  0.001503    0.433333  104.084259  0.001489    1.757359       0.993840
+1                   (MOCACHINO 7OZ)             (EMPANADAS)            0.002082            0.107089  0.001156    0.555556    5.187785  0.000934    2.009049       0.808923
+2                 (FOTOCOPIA 1CARA)           (IMPRESIONES)            0.002891            0.005435  0.001272    0.440000   80.950638  0.001256    1.776008       0.990511
+Tiempo de ejecución fp-growth: 0.19251775741577148
+                        antecedents             consequents  antecedent support  consequent support   support  confidence        lift  leverage  conviction  zhangs_metric
+0  (CERVEZA  AGUILA ORIGINAL 355ML)  (CERVEZA POKER  355ML)            0.003469            0.004163  0.001503    0.433333  104.084259  0.001489    1.757359       0.993840
+1                   (MOCACHINO 7OZ)             (EMPANADAS)            0.002082            0.107089  0.001156    0.555556    5.187785  0.000934    2.009049       0.808923
+2                 (FOTOCOPIA 1CARA)           (IMPRESIONES)            0.002891            0.005435  0.001272    0.440000   80.950638  0.001256    1.776008       0.990511
+soporte: 0.001, threshold: 0.5
+Tiempo de ejecución apriori: 3.0472960472106934
+       antecedents  consequents  antecedent support  consequent support   support  confidence      lift  leverage  conviction  zhangs_metric
+0  (MOCACHINO 7OZ)  (EMPANADAS)            0.002082            0.107089  0.001156    0.555556  5.187785  0.000934    2.009049       0.808923
+Tiempo de ejecución fp-growth: 0.06955695152282715
+       antecedents  consequents  antecedent support  consequent support   support  confidence      lift  leverage  conviction  zhangs_metric
+0  (MOCACHINO 7OZ)  (EMPANADAS)            0.002082            0.107089  0.001156    0.555556  5.187785  0.000934    2.009049       0.808923
+soporte: 0.002, threshold: 0.1
+Tiempo de ejecución apriori: 1.030667781829834
+                antecedents  consequents  antecedent support  consequent support   support  confidence      lift  leverage  conviction  zhangs_metric
+0          (CAPUCHINO 7 OZ)  (EMPANADAS)            0.005782            0.107089  0.002197    0.380000  3.548445  0.001578    1.440179       0.722363
+1  (COCA COLA FLEXI 400 ML)  (EMPANADAS)            0.037932            0.107089  0.004857    0.128049  1.195721  0.000795    1.024038       0.170138
+2       (GATORADE   500 ML)  (EMPANADAS)            0.021742            0.107089  0.002429    0.111702  1.043076  0.000100    1.005193       0.042215
+3        (JUGO HIT  500 ML)  (EMPANADAS)            0.036660            0.107089  0.005320    0.145110  1.355043  0.001394    1.044475       0.271987
+4   (MR TEA PLASTICO 500ML)  (EMPANADAS)            0.012606            0.107089  0.002082    0.165138  1.542057  0.000732    1.069531       0.356003
+5             (PONKY 33 GR)  (EMPANADAS)            0.019313            0.107089  0.002082    0.107784  1.006492  0.000013    1.000779       0.006578
+6       (PULP NECTAR 400ML)  (EMPANADAS)            0.009599            0.107089  0.002082    0.216867  2.025111  0.001054    1.140178       0.511106
+7         (VIVE 100. 380ML)  (EMPANADAS)            0.019544            0.107089  0.003007    0.153846  1.436617  0.000914    1.055258       0.309979
+Tiempo de ejecución fp-growth: 0.061318159103393555
+                antecedents  consequents  antecedent support  consequent support   support  confidence      lift  leverage  conviction  zhangs_metric
+0        (JUGO HIT  500 ML)  (EMPANADAS)            0.036660            0.107089  0.005320    0.145110  1.355043  0.001394    1.044475       0.271987
+1         (VIVE 100. 380ML)  (EMPANADAS)            0.019544            0.107089  0.003007    0.153846  1.436617  0.000914    1.055258       0.309979
+2             (PONKY 33 GR)  (EMPANADAS)            0.019313            0.107089  0.002082    0.107784  1.006492  0.000013    1.000779       0.006578
+3       (GATORADE   500 ML)  (EMPANADAS)            0.021742            0.107089  0.002429    0.111702  1.043076  0.000100    1.005193       0.042215
+4  (COCA COLA FLEXI 400 ML)  (EMPANADAS)            0.037932            0.107089  0.004857    0.128049  1.195721  0.000795    1.024038       0.170138
+5          (CAPUCHINO 7 OZ)  (EMPANADAS)            0.005782            0.107089  0.002197    0.380000  3.548445  0.001578    1.440179       0.722363
+6       (PULP NECTAR 400ML)  (EMPANADAS)            0.009599            0.107089  0.002082    0.216867  2.025111  0.001054    1.140178       0.511106
+7   (MR TEA PLASTICO 500ML)  (EMPANADAS)            0.012606            0.107089  0.002082    0.165138  1.542057  0.000732    1.069531       0.356003
+soporte: 0.002, threshold: 0.2
+Tiempo de ejecución apriori: 1.0535643100738525
+           antecedents  consequents  antecedent support  consequent support   support  confidence      lift  leverage  conviction  zhangs_metric
+0     (CAPUCHINO 7 OZ)  (EMPANADAS)            0.005782            0.107089  0.002197    0.380000  3.548445  0.001578    1.440179       0.722363
+1  (PULP NECTAR 400ML)  (EMPANADAS)            0.009599            0.107089  0.002082    0.216867  2.025111  0.001054    1.140178       0.511106
+Tiempo de ejecución fp-growth: 0.056999921798706055
+           antecedents  consequents  antecedent support  consequent support   support  confidence      lift  leverage  conviction  zhangs_metric
+0     (CAPUCHINO 7 OZ)  (EMPANADAS)            0.005782            0.107089  0.002197    0.380000  3.548445  0.001578    1.440179       0.722363
+1  (PULP NECTAR 400ML)  (EMPANADAS)            0.009599            0.107089  0.002082    0.216867  2.025111  0.001054    1.140178       0.511106
+soporte: 0.002, threshold: 0.30000000000000004
+Tiempo de ejecución apriori: 1.0644586086273193
+        antecedents  consequents  antecedent support  consequent support   support  confidence      lift  leverage  conviction  zhangs_metric
+0  (CAPUCHINO 7 OZ)  (EMPANADAS)            0.005782            0.107089  0.002197        0.38  3.548445  0.001578    1.440179       0.722363
+Tiempo de ejecución fp-growth: 0.057767629623413086
+        antecedents  consequents  antecedent support  consequent support   support  confidence      lift  leverage  conviction  zhangs_metric
+0  (CAPUCHINO 7 OZ)  (EMPANADAS)            0.005782            0.107089  0.002197        0.38  3.548445  0.001578    1.440179       0.722363
+soporte: 0.002, threshold: 0.4
+Tiempo de ejecución apriori: 1.084829330444336
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.05750131607055664
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.002, threshold: 0.5
+Tiempo de ejecución apriori: 1.0297586917877197
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.16064858436584473
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.003, threshold: 0.1
+Tiempo de ejecución apriori: 0.4529404640197754
+                antecedents  consequents  antecedent support  consequent support   support  confidence      lift  leverage  conviction  zhangs_metric
+0  (COCA COLA FLEXI 400 ML)  (EMPANADAS)            0.037932            0.107089  0.004857    0.128049  1.195721  0.000795    1.024038       0.170138
+1        (JUGO HIT  500 ML)  (EMPANADAS)            0.036660            0.107089  0.005320    0.145110  1.355043  0.001394    1.044475       0.271987
+2         (VIVE 100. 380ML)  (EMPANADAS)            0.019544            0.107089  0.003007    0.153846  1.436617  0.000914    1.055258       0.309979
+Tiempo de ejecución fp-growth: 0.04598689079284668
+                antecedents  consequents  antecedent support  consequent support   support  confidence      lift  leverage  conviction  zhangs_metric
+0        (JUGO HIT  500 ML)  (EMPANADAS)            0.036660            0.107089  0.005320    0.145110  1.355043  0.001394    1.044475       0.271987
+1         (VIVE 100. 380ML)  (EMPANADAS)            0.019544            0.107089  0.003007    0.153846  1.436617  0.000914    1.055258       0.309979
+2  (COCA COLA FLEXI 400 ML)  (EMPANADAS)            0.037932            0.107089  0.004857    0.128049  1.195721  0.000795    1.024038       0.170138
+soporte: 0.003, threshold: 0.2
+Tiempo de ejecución apriori: 0.5018112659454346
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.04876065254211426
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.003, threshold: 0.30000000000000004
+Tiempo de ejecución apriori: 0.4712846279144287
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.04475855827331543
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.003, threshold: 0.4
+Tiempo de ejecución apriori: 0.4652535915374756
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.04978489875793457
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.003, threshold: 0.5
+Tiempo de ejecución apriori: 0.4577813148498535
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.05151724815368652
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.004, threshold: 0.1
+Tiempo de ejecución apriori: 0.19019293785095215
+                antecedents  consequents  antecedent support  consequent support   support  confidence      lift  leverage  conviction  zhangs_metric
+0  (COCA COLA FLEXI 400 ML)  (EMPANADAS)            0.037932            0.107089  0.004857    0.128049  1.195721  0.000795    1.024038       0.170138
+1        (JUGO HIT  500 ML)  (EMPANADAS)            0.036660            0.107089  0.005320    0.145110  1.355043  0.001394    1.044475       0.271987
+Tiempo de ejecución fp-growth: 0.04736614227294922
+                antecedents  consequents  antecedent support  consequent support   support  confidence      lift  leverage  conviction  zhangs_metric
+0        (JUGO HIT  500 ML)  (EMPANADAS)            0.036660            0.107089  0.005320    0.145110  1.355043  0.001394    1.044475       0.271987
+1  (COCA COLA FLEXI 400 ML)  (EMPANADAS)            0.037932            0.107089  0.004857    0.128049  1.195721  0.000795    1.024038       0.170138
+soporte: 0.004, threshold: 0.2
+Tiempo de ejecución apriori: 0.1925816535949707
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.04658627510070801
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.004, threshold: 0.30000000000000004
+Tiempo de ejecución apriori: 0.19493675231933594
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.04630112648010254
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.004, threshold: 0.4
+Tiempo de ejecución apriori: 0.1929488182067871
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.047049760818481445
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.004, threshold: 0.5
+Tiempo de ejecución apriori: 0.1974940299987793
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.14940595626831055
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.005, threshold: 0.1
+Tiempo de ejecución apriori: 0.1091468334197998
+          antecedents  consequents  antecedent support  consequent support  support  confidence      lift  leverage  conviction  zhangs_metric
+0  (JUGO HIT  500 ML)  (EMPANADAS)             0.03666            0.107089  0.00532     0.14511  1.355043  0.001394    1.044475       0.271987
+Tiempo de ejecución fp-growth: 0.04489541053771973
+          antecedents  consequents  antecedent support  consequent support  support  confidence      lift  leverage  conviction  zhangs_metric
+0  (JUGO HIT  500 ML)  (EMPANADAS)             0.03666            0.107089  0.00532     0.14511  1.355043  0.001394    1.044475       0.271987
+soporte: 0.005, threshold: 0.2
+Tiempo de ejecución apriori: 0.11315131187438965
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.044998884201049805
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.005, threshold: 0.30000000000000004
+Tiempo de ejecución apriori: 0.1110694408416748
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.0367434024810791
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.005, threshold: 0.4
+Tiempo de ejecución apriori: 0.11441850662231445
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.05021476745605469
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.005, threshold: 0.5
+Tiempo de ejecución apriori: 0.11676502227783203
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.049497365951538086
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.006, threshold: 0.1
+Tiempo de ejecución apriori: 0.08106374740600586
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.04276776313781738
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.006, threshold: 0.2
+Tiempo de ejecución apriori: 0.0750722885131836
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.03563070297241211
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.006, threshold: 0.30000000000000004
+Tiempo de ejecución apriori: 0.08053064346313477
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.03526902198791504
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.006, threshold: 0.4
+Tiempo de ejecución apriori: 0.07931041717529297
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.0403749942779541
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.006, threshold: 0.5
+Tiempo de ejecución apriori: 0.06391096115112305
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.04909491539001465
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.007, threshold: 0.1
+Tiempo de ejecución apriori: 0.04878950119018555
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.04968619346618652
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.007, threshold: 0.2
+Tiempo de ejecución apriori: 0.05021262168884277
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.037858009338378906
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.007, threshold: 0.30000000000000004
+Tiempo de ejecución apriori: 0.06275796890258789
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.03650641441345215
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.007, threshold: 0.4
+Tiempo de ejecución apriori: 0.057861328125
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.04091501235961914
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.007, threshold: 0.5
+Tiempo de ejecución apriori: 0.05443572998046875
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.042368412017822266
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.008, threshold: 0.1
+Tiempo de ejecución apriori: 0.036062002182006836
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.030966997146606445
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.008, threshold: 0.2
+Tiempo de ejecución apriori: 0.05064797401428223
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.039990901947021484
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.008, threshold: 0.30000000000000004
+Tiempo de ejecución apriori: 0.025243043899536133
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.05197644233703613
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.008, threshold: 0.4
+Tiempo de ejecución apriori: 0.031677961349487305
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.04948878288269043
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.008, threshold: 0.5
+Tiempo de ejecución apriori: 0.040110111236572266
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.02647876739501953
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.009000000000000001, threshold: 0.1
+Tiempo de ejecución apriori: 0.03612089157104492
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.0473325252532959
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.009000000000000001, threshold: 0.2
+Tiempo de ejecución apriori: 0.018637418746948242
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.0511629581451416
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.009000000000000001, threshold: 0.30000000000000004
+Tiempo de ejecución apriori: 0.02799534797668457
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.04051542282104492
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.009000000000000001, threshold: 0.4
+Tiempo de ejecución apriori: 0.02900075912475586
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.03900456428527832
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.009000000000000001, threshold: 0.5
+Tiempo de ejecución apriori: 0.027006864547729492
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.03913402557373047
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.010000000000000002, threshold: 0.1
+Tiempo de ejecución apriori: 0.02399921417236328
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.03915286064147949
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.010000000000000002, threshold: 0.2
+Tiempo de ejecución apriori: 0.02499985694885254
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.0390012264251709
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.010000000000000002, threshold: 0.30000000000000004
+Tiempo de ejecución apriori: 0.025011777877807617
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.03951668739318848
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.010000000000000002, threshold: 0.4
+Tiempo de ejecución apriori: 0.024999618530273438
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.040013790130615234
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+soporte: 0.010000000000000002, threshold: 0.5
+Tiempo de ejecución apriori: 0.0235137939453125
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
+Tiempo de ejecución fp-growth: 0.03899955749511719
+Empty DataFrame
+Columns: [antecedents, consequents, antecedent support, consequent support, support, confidence, lift, leverage, conviction, zhangs_metric]
+Index: []
